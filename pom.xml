@@ -669,7 +669,7 @@
         <dependency>
             <groupId>org.apache.directory.api</groupId>
             <artifactId>api-ldap-model</artifactId>
-            <version>2.1.7</version>
+            <version>2.1.8-lineaje-01</version>
         </dependency>
 
         <dependency>
@@ -1256,14 +1256,14 @@
         <log.directory>${project.build.directory}/log</log.directory>
 
         <version.apache.api-ldap>2.1.8</version.apache.api-ldap>
-        <version.apacheds>2.0.0.AM27</version.apacheds>
+        <version.apacheds>2.0.0.AM25-lineaje-01</version.apacheds>
         <version.fluido>2.1.0</version.fluido>
         <!-- hibernate is up to rev 6+. But 4.0.0. causes this error: symbol: org.hibernate.classic.Session not found -->
-        <version.hibernate>3.6.10.Final</version.hibernate>
+        <version.hibernate>3.6.10.Final-lineaje-01</version.hibernate>
         <version.spotbugs.maven>4.10.2.0</version.spotbugs.maven>
         <version.spotbugs>4.10.2</version.spotbugs>
         <!-- Spring 6.x requires Java 17 -->
-        <version.springframework>5.3.39</version.springframework>
+        <version.springframework>5.3.39-lineaje-01</version.springframework>
         <!-- Tomcat 10 moves from Java EE to Jakarta EE, moving packages javax.* to jakarta.* - code changes likely required to address this change. -->
         <tomcat.major.version>9</tomcat.major.version>
         <version.tomcat>9.0.115</version.tomcat>
